@@ -23,7 +23,7 @@
               Note="Internal render resolution 1280x720; display output stays 1920x1080 and the UI is unaffected."
               Author="junminlee2004"
               PatchVer="1.1"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -42,7 +42,7 @@
               Note="Internal render resolution 1600x900; display output stays 1920x1080."
               Author="junminlee2004"
               PatchVer="1.1"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -61,7 +61,7 @@
               Note="Internal render resolution 2560x1440 resolved to a 1920x1080 output."
               Author="junminlee2004"
               PatchVer="1.1"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -80,7 +80,7 @@
               Note="Internal render resolution 3840x2160 resolved to a 1920x1080 output."
               Author="junminlee2004"
               PatchVer="1.1"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -99,7 +99,7 @@
               Note="Forces the engine's own motion-blur-off path, so the blur passes and their composite never run. Also skips a second, unidentified post chain that tested as a small gain with no visible change."
               Author="junminlee2004"
               PatchVer="1.1"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -112,7 +112,7 @@
               Note="Forces the engine's own depth-of-field-off path. The chain that drives the circle-of-confusion, downsample, bokeh and DOF composite passes already sits behind a guard the game skips when its DOF amount is zero; this makes that guard's jump unconditional."
               Author="junminlee2004"
               PatchVer="1.2"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
@@ -124,7 +124,7 @@
               Note="Forces the engine's own depth-blur-off path. The separable blur chain that drives the FX_DEPTH_BLUR pass is guarded by its own amount value; this makes that guard's jump unconditional."
               Author="junminlee2004"
               PatchVer="1.2"
-              AppVer="01.07"
+              AppVer="01.00"
               AppElf="eboot.bin"
               isEnabled="false">
         <PatchList>
